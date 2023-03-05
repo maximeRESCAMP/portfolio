@@ -1,0 +1,155 @@
+@media all and (min-width: 910px){
+    .logo_nav_responsive{
+        display: none;
+    }
+
+}
+
+@media all and (max-width: 910px)
+
+{
+    .formulaire_champ {
+        display: flex;
+        flex-direction: column;
+
+    }
+    textarea {
+        min-width: 50vw;
+    }
+    .navigation-responsive{
+        display: inline-block;
+
+    }
+    nav{
+        border-bottom: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    .boutonburger{
+        position: absolute;
+        height: 0;
+        right: 0;
+    }
+    .logo_nav_responsive{
+        display: inline-block;
+    }
+
+    #toggle
+    {
+        display: none;
+    }
+    .logonav{
+        display: none;
+    }
+
+    .navigations{
+        display: none;
+        background: #6e6e6e;
+        height: 400px;
+        justify-content: center;
+        width: 300px;
+        margin-left: auto;
+        border: 5px white solid;
+        border-radius: 10%;
+
+
+    }
+
+    .navigations_contenant{
+        flex-direction: column;
+    }
+    #non{
+        display: flex;
+
+        font-size: 45px;
+        color: white;
+        cursor: pointer;
+    }
+    #toggle:checked + .navigations {
+        margin-top: 4rem;
+        display: flex;
+    }
+
+
+    .projets{
+        flex-wrap: wrap;
+    }
+    .projets__choix{
+        display: block;
+        margin-top: 1rem;
+    }
+    .projet-cv{
+        max-width: 80vw;
+
+    }
+    form{
+        width: auto;
+        margin: 1rem;
+    }
+    .ligne-contact{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .img-contact{
+        margin-top: 1rem;
+    }
+
+
+    nav{
+        border-bottom: none;
+    }
+    /*diviser les titre en deux*/
+    .titre{
+        display: block;
+        margin-top: 1rem;
+    }
+    .block{
+        display: block;
+        margin: 1rem;
+    }
+    .diplome__titre{
+        font-size: 1.5rem;
+    }
+    .experience-professionnel{
+
+
+        min-width: 75vw;
+        min-height: 65vh;
+
+    }
+    .formulaire{
+        flex-direction: column;
+    }
+
+}
+
+}
+
+@media all and (max-width: 1200px) and ( min-width: 1050px)
+{
+    .experience-professionnel{
+
+    min-height: 50vh;
+
+
+
+
+    }
+
+}
+@media all and (max-width: 1050px) and ( min-width: 900px)
+{
+    .experience-professionnel{
+
+        min-height: 65vh;
+        background-color: red;
+
+
+
+    }
+
+}
+
+
+

@@ -1,0 +1,115 @@
+/*footer*/
+/* info personelles */
+.info_perso__image{
+    width: 1rem;
+    height: 1rem;
+    vertical-align: middle;
+    margin-right: 2rem;
+}
+
+.info_perso__image--flotante{
+    float: left;
+    margin-top: 0.8rem;
+}
+
+
+.info_perso__texte{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+/* Informatique */
+
+.informatique__image{
+    width: 2rem;
+    height: 2rem;
+    vertical-align: middle;
+    margin-right: 2rem;
+}
+
+.image-language{
+    height: 50px;
+    margin-left: 1rem;
+}
+.infomatique-flex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin-bottom: 1rem;
+}
+.infomatique-flex--centrer{
+    display: flex;
+    justify-content: center;
+}
+
+/*atouts*/
+
+.atouts__image{
+    width: 2rem;
+    height: 2rem;
+    vertical-align: middle;
+    margin-right: 2rem;
+}
+
+
+.atouts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.atout__liste{
+    list-style: none;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.qrcode{
+    height: 150px;
+}
+
+
+/*flex*/
+.flex {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+
+}
+
+footer{
+    background-color: #add8e6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 340px;
+    padding: 1rem ;
+}
+/*centre d'interet*/
+.Centre-interet__image{
+    width: 2rem;
+    margin-right: 2rem;
+    vertical-align: middle;
+}
+
+.Centre-interet__centrer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icone{
+    width: 3rem;
+    margin-left: 1rem;
+}
+
+
+
+
+h5{
+    text-align: center;
+    font-weight: bold;
+    color: #582900;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    <title>Diplôme</title>
+
+{% endblock %}
+
+{% block body %}
+    <h2>Diplome</h2>
+    <section class="affichage">
+        <a href="https://www.eni-ecole.fr/formations/developpement/bac2-developpeur-web-et-web-mobile/" target="_blank"
+           class="block" title="envoie vers le site de ecole">
+            <div>
+                <h3 class="diplome__titre">Dévelloppeur Web et Web Mobile (en cours)</h3>
+                <p class="diplome_texte">ENI Chartres-de-bretagne, France</p>
+            </div>
+        </a>
+        <a href="https://www.campus-promotrans.fr/formation/bachelor-responsable-transport-multimodal-commerce-international/"
+           target="_blank" class="block" title="envoie vers le site de ecole">
+            <div >
+                <h3 class="diplome__titre">Bachelor Responsable de Transport Multimodal </h3>
+                <p class="diplome_texte">Promotrans Bruz, France</p>
+            </div>
+        </a>
+        <a href="https://citescolairebroceliande.fr/post-bac/bts-gtla/" target="_blank" class="block"
+           title="envoie vers le site de ecole">
+            <div >
+                <h3 class="diplome__titre">BTS Transports et Prestations Logistiques</h3>
+                <p class="diplome_texte">Lycée Brocéliande Guer, France</p>
+            </div>
+        </a>
+    </section>
+
+{% endblock %}
+ {% block liencss%}   <link rel="stylesheet" href="{{ asset('css/diplome.css') }}"> {% endblock %}
+

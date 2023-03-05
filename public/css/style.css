@@ -1,0 +1,104 @@
+/*général*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1f1f23;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*image  nav*/
+
+.logo{
+    width: 3rem;
+    height: 3rem;
+}
+
+/* nav */
+
+#toggle, #non
+{
+    display: none;
+}
+
+
+nav{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 0.3rem solid gray;
+}
+
+.navigations_contenant{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navigations_contenant li{
+    list-style-type: none;
+}
+
+.navigations_contenant_lien{
+    color: white;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+.navigations_contenant_lienZ:hover{
+    font-weight: bold;
+}
+
+ /*titre */
+
+h1, h2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-decoration: underline overline;
+    /* pour espacement entre ligne soulignement */
+    text-underline-offset: 10px;
+}
+
+/*averifier*/
+
+/*!*experience et diplome*!*/
+.affichage{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 50vh;
+}
+.block{
+    color: white;
+    text-decoration: none;
+    background-color:  #878585;
+    border: white solid 0.5rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+.block:hover{
+
+    font-weight: bold;
+    background-color: skyblue;
+    box-shadow: 2rem 2rem #878585;
+}
+
+
+
+
+/*.information_acceuil{*/
+/*    width: 35px;*/
+/*    height: 35px;*/
+/*}*/
+/*.information_acceuil:hover{*/
+/*    width: 40px;*/
+/*    height: 40px;*/
+/*}*/

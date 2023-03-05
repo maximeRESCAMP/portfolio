@@ -1,0 +1,62 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h2>Contact</h2>
+    <div class="formulaire">
+        <fieldset>
+            <legend> Formulaire de contact</legend>
+
+
+            {{ form_start(form) }}
+            <div class="formulaire_champ">
+                <div class="bloc_gauche">
+                    <div>
+                        <strong>  {{ form_label(form.nom) }}</strong>
+                        {{ form_errors(form.nom) }}
+                        {{ form_widget(form.nom) }}
+                    </div>
+                    <div>
+                        <strong>{{ form_label(form.prenom) }} </strong>
+                        {{ form_errors(form.prenom) }}
+                        {{ form_widget(form.prenom) }}
+                    </div>
+                    <div>
+                        <strong>  {{ form_label(form.mail) }}</strong>
+                        {{ form_errors(form.mail) }}
+                        {{ form_widget(form.mail) }}
+                    </div>
+                    <div>
+                        <strong>  {{ form_label(form.telephone) }}</strong>
+                        {{ form_errors(form.telephone) }}
+                        {{ form_widget(form.telephone) }}
+                    </div>
+                </div>
+                <div class="bloc_droite">
+                    <em class="block-centrer">{{ form_label(form.commentaire) }}</em>
+                    {{ form_errors(form.commentaire) }}
+                    <em class="textarea">   {{ form_widget(form.commentaire) }}</em>
+                </div>
+            </div>
+
+        </fieldset>
+        <div class="groupe_bouton">
+        <button class="valider" >valider</button>
+        <button type="reset" class="reinitialiser">Réinitialiser</button>
+            </div>
+    </div>
+    {{ form_end(form) }}
+    <p class="ligne-contact"><a href="mailto:maxime.rescamp@hotmail.fr" class="contact"> <img
+                    src="{{ asset('image/cv/email.png') }}" alt="mail" class="img-contact"> m'envoyer un mail</a>
+        <a href="tel:0640941919" class="contact"><img src="{{ asset('image/cv/call.png') }}" alt="tel"
+                                                      class="img-contact"> m'appeler</a></p>
+
+
+{% endblock %}
+
+{% block title %}
+
+{% endblock %}
+ {% block liencss %}
+     <link rel="stylesheet" href="{{ asset('css/contact.css') }}">
+ {% endblock %}
+

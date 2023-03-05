@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+<title>A Propos</title>
+{% endblock %}
+  {% block liencss%}<link rel="stylesheet" href="{{ asset('css/apropos.css') }}">{% endblock %}
+
+{% block body %}
+
+    <article>
+        <h2>A Propos<strong class="titre"> De Moi </strong></h2>
+        <p> Bonjour et bienvenue sur mon portfolio. Je m'appelle Maxime RESCAMP et j'ai 26 ans.</p>
+        <p > <strong> STATUT : </strong> En cours de formation recherche de stage.</p>
+        <p >Mes passions principales sont la musique,  l'ordinateur, le poker et le football.</p>
+        <p > <strong class="titre">Les raisons de ma reconversion :  </strong> Après quelques expériences dans l’organisation du transport dont je
+            suis initialement diplômé, j’ai choisi de faire une formation dans l’informatique afin de m’épanouir
+            davantage et de me rapprocher d’un métier qui me correspond plus.</p>
+    </article>
+
+{% endblock %}
+

@@ -1,0 +1,56 @@
+/*global*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*header*/
+header {
+    border-bottom: 0.7rem solid #00008b;
+    padding: 1rem 3rem 1rem 2rem;
+    color: #00008b;
+    background-color: #add8e6;
+    display: flex;
+    min-width: 750px;
+    max-width: 100vw;
+}
+
+h1, h2
+{
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #582900;
+}
+
+.header-text__description {
+    font-size: 1.6rem;
+    padding-top: 1rem;
+    border-top: 0.3rem solid #00008b;
+}
+
+.image-demoi {
+    width: 13rem;
+    height: 13rem;
+    border: 0.3rem solid #00008b;
+    border-radius: 50%;
+}
+
+h2 {
+    font-size: 2rem;
+
+}
+.header-text__nom-et-metier--type-emploie{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+
+
+

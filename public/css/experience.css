@@ -1,0 +1,29 @@
+.experience-professionnel{
+
+    width: 30vw;
+   height: 35vh;
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+    padding: 3rem;
+}
+.Epxerience-professionnel__titre{
+    font-size: 3rem;
+    text-align: center;
+}
+.Epxerience-professionnel__entreprise{
+    font-size: 1.5rem;
+    text-align: center;
+}
+em{
+    font-style: normal;
+    color: blue;
+}
+
+.Epxerience-professionnel__mission__list{
+
+    font-size: 2rem;
+}
+.Epxerience-professionnel__mission{
+    font-size: 2rem;
+}

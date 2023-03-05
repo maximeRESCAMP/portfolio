@@ -1,0 +1,183 @@
+<!DOCTYPE html />
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>CV maxime</title>
+    <link rel="stylesheet" href="{{  asset('css/cv/header.css')}}">
+    <link rel="stylesheet" href="{{  asset('css/cv/main.css')}}">
+    <link rel="stylesheet" href="{{  asset('css/cv/cv.css')}}">
+    <link rel="stylesheet" href="{{  asset('css/cv/responsiv.css')}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <div class="bloc_page">
+        <header>
+            <div class="header-text">
+                <div class="header-text__nom-et-metier">
+                    <h1>Maxime RESCAMP</h1>
+                    <h2 class="header-text__nom-et-metier-metier">Développeur Web & Web Mobile</h2>
+                    <p class="header-text__nom-et-metier--type-emploie">Recherche de stage du 10/04/2023 au 02/06/2023</p>
+                </div>
+                <p class="header-text__description">Après quelques expériences dans l’organisation du transport dont je
+                    suis
+                    initialement diplômé, j’ai choisi de faire une formation dans l’informatique afin de m’épanouir
+                    davantage et de me rapprocher d’un métier qui me correspond plus</p>
+            </div>
+            <img src="{{ asset('image/cv/maxime.png') }}" alt="photos de moi" class="image-demoi"/>
+        </header>
+        <div class="flex">
+            <aside>
+                <div class="date-logo-formation">
+                    <img src="{{ asset('image/cv/diplome.png') }}" alt="logo_diplome"
+                         class="date-logo-formation__logo-diplome"/>
+                    <div class="date-logo-formation__date">
+                        <p class="date-logo-formation__date__formation">En cours</p>
+                        <p class="date-logo-formation__date__formation">2017-2018</p>
+                        <p class="date-logo-formation__date__formation">2015-2017</p>
+                    </div>
+                </div>
+                <div class="date-logo-experience">
+                    <img src="{{ asset('image/cv/experience.png') }}" alt="Logo_experience"
+                         class="date-logo-experience__logo-experience"/>
+                    <div class="date-logo-experience__date">
+                        <p class="date-logo-formation__date__experience">De Juin 2021 <br/>à Aout 2022</p>
+                        <p class="date-logo-formation__date__experience ">
+                            De Juillet 2020<br/> à Septembre 2020</p>
+                        <p class="date-logo-formation__date__experience date-logo-formation__date__experience__marge ">
+                            D'Octobre 2018 <br/> à Aout 2019</p>
+                        <p class="date-logo-formation__date__experience ">
+                            De juillet 2017 <br/> à Aout 2018</p>
+                    </div>
+                </div>
+
+            </aside>
+            <section>
+                <article class="diplome-formation">
+                    <h3 class="diplome-formation--titre">Diplome et Formations</h3>
+                    <h4 class="diplome-formation__marge">Développeur Web et Web Mobile (en cours) </h4>
+                    <p class="diplome-formation__ecole ">ENI Chartres-de-bretagne, France</p>
+                    <h4 class="diplome-formation__marge">Bachelor Responsable de Transport Multimodal </h4>
+                    <p class="diplome-formation__ecole">Promotrans Bruz, France</p>
+                    <h4 class="diplome-formation__marge">BTS Transports et Prestations Logistiques</h4>
+                    <p class="diplome-formation__ecole">Lycée Brocéliande Guer, France</p>
+                </article>
+
+                <article class="Epxerience-professionnel">
+                    <h3 class="Epxerience-professionnel--titre">Expériences professionnelles</h3>
+                    <h4>Assitants transport</h4>
+                    <p class="Epxerience-professionnel__entrprise"><em>Société des transports Biocoop</em> Tinteniac,
+                        France</p>
+                    <ul class="Epxerience-professionnel__mission">
+                        <li>Saisir Informatiquement les données</li>
+                        <li>Répondre au téléphone</li>
+                    </ul>
+
+                    <h4 class="Epxerience-professionnel__margedessus--ciblex">Agent de trafic</h4>
+                    <p class="Epxerience-professionnel__entrprise"><em>Ciblex</em> Cesson-Sévigné, France</p>
+                    <ul class="Epxerience-professionnel__mission">
+                        <li>Lire les mails, répondre au téléphone et envoyer des fax</li>
+                        <li>Suivre des réclamations</li>
+                        <li>Reconditionner les colis fuyants</li>
+                    </ul>
+
+                    <H4>Exploitant </H4>
+                    <P class="Epxerience-professionnel__entrprise"><em>CAT</em> Noyal-sur-Vilaine, France</P>
+                    <ul class="Epxerience-professionnel__mission">
+                        <li>Saisir informatiquement les colis</li>
+                        <li>Appeler les conducteurs</li>
+                        <li>Affecter les colis aux différentes tournées</li>
+                        <li>Informer les agents de quai sur l'heure d'arrivée des axes</li>
+                    </ul>
+
+                    <h4>Chef de trafic</h4>
+                    <p class="Epxerience-professionnel__entrprise"><em>TNT express </em>Saint-Jacques-de-la-Lande,
+                        France</p>
+                    <ul class="Epxerience-professionnel__mission">
+                        <li>Pointer l’heure d’arrivée des camions, signer les lettres de voiture</li>
+                        <li>Plomber, déplomber et contrôler les plombs</li>
+                        <li>Élaborer le planning et préparer en fonction les demandes d’intérimaires</li>
+                        <li>Mettre les formules dans les tableaux Excel</li>
+                        <li>Préparer et faire un entretien de recrutement de CDD</li>
+                    </ul>
+                </article>
+                <article class="projet">
+                    <h3 class="projet--titre">Projets</h3>
+                    <p class="projet-explication">- Création du CV (html et css)</p>
+                    <p class="projet-explication">- Développement d’un site d’enchères (sous java EE et SQLServer)</p>
+                </article>
+
+            </section>
+            <footer>
+                <div class="info_perso">
+                    <h5>INFORMATIONS PERSONNELLES</h5>
+                    <p class="info_perso__texte"><img src="{{ asset('image/cv/email.png') }}" alt="mail"
+                                                      class="info_perso__image">maxime.rescamp@hotmail.fr </p>
+
+                    <p class="info_perso__texte"><img src="{{ asset('image/cv/maps.png') }}" alt="maps"
+                                                      class="info_perso__image info_perso__image--flotante">32 roche
+                        blanche <br> 35190
+                        Quebriac
+                    </p>
+
+                    <p class="info_perso__texte"><img src="{{ asset('image/cv/calendrier.png') }}" alt="age"
+                                                      class="info_perso__image ">25
+                        ans</p>
+                    <p class="info_perso__texte"><img src="{{ asset('image/cv/voiture.png') }}" alt="permis"
+                                                      class="info_perso__image info_perso__image--flotante"> Permis B
+                        <br/>Véhicule personnel</p>
+                    <p class="info_perso__texte"><img src="{{ asset('image/cv/call.png') }}" alt="call"
+                                                      class="info_perso__image">06.40.94.19.19</p>
+                </div>
+                <div class="Centre-interet">
+                    <h5><img src="{{ asset('image/cv/people.png') }}" alt="people" class="Centre-interet__image"/>
+                        CENTRE
+                        D’INTÉRÊT </h5>
+                    <p class="Centre-interet__centrer"><img src="{{ asset('image/cv/MUSIQUE.png') }}" alt="musique"
+                                                            class="icone espace"/><img
+                                src="{{ asset('image/cv/ordi.png') }}" alt="ordi" class="icone espace"/><img
+                                src="{{ asset('image/cv/POKER.png') }}" alt="poker" class="icone espace"/> <img
+                                src="{{ asset('image/cv/football.png') }}"
+                                alt="foot" class="icone espace"/></p>
+
+                </div>
+                <div class="informatique">
+                    <h5><img src="{{ asset('image/cv/ordi.png') }}" alt="ordi" class="informatique__image"> INFORMATIQUE
+                    </h5>
+                    <p class="infomatique-flex"><img src="{{ asset('image/cv/html-5.png') }}" alt="logohtml"
+                                                     class="image-language"><img src="{{ asset('image/cv/css-3.png') }}"
+                                                                                 alt="logocss"
+                                                                                 class="image-language"><img
+                                src="{{ asset('image/cv/php.png') }}" alt="logophp" class="image-language"><img
+                                src="{{ asset('image/cv/java-script.png') }}" alt="logojavascript"
+                                class="image-language"></p>
+                    <p class="infomatique-flex--centrer"><img src="{{ asset('image/cv/sql-server.png') }}" alt="logosql"
+                                                              class="image-language"><img
+                                src="{{ asset('image/cv/java.png') }}" alt="logojava" class="image-language"></p>
+
+
+                </div>
+
+                <div class="atouts">
+                    <h5><img src="{{ asset('image/cv/trophee.png') }}" alt="trophee" class="atouts__image"/>ATOUTS</h5>
+                    <ul>
+                        <li class="atout__liste">Impliqué</li>
+                        <li class="atout__liste">Réactif</li>
+                        <li class="atout__liste">Organisé</li>
+                        <li class="atout__liste">Motivé</li>
+                        <li class="atout__liste">Curieux</li>
+                    </ul>
+                </div>
+                <p><img src="{{ asset('image/cv/Untitled.png') }}" alt="qrcode" class="qrcode"></p>
+
+            </footer>
+        </div>
+    </div>
+
+
+</body>
+
+
+
+

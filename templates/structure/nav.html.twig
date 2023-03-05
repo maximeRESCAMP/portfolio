@@ -1,0 +1,16 @@
+<nav>
+
+    <a href="{{ path('main_portfolio') }}" class="navigation-responsive"> <img src="{{ asset('image/logo1.png') }}" alt="logo" class="logo logo_nav_responsive "></a>
+    <label for="toggle" id="non" class="boutonburger">☰</label><input type="checkbox" id="toggle">
+    <div class="navigations">
+
+        <ul class="navigations_contenant">
+           <li> <a href="{{ path('main_portfolio') }}"> <img src="{{ asset('image/logo1.png') }}" alt="logo" class="logo logonav"></a></li>
+            <li><a href="{{ path('main_information') }}" class="navigations_contenant_lien">A Propos</a></li>
+            <li><a href="{{ path('main_diplome') }}" class="navigations_contenant_lien">Diplôme</a></li>
+            <li><a href="{{ path('main_experience') }}" class="navigations_contenant_lien">Expérience</a></li>
+            <li><a href="{{ path('main_portfolio') }}" class="navigations_contenant_lien">Portfolio</a></li>
+            <li><a href="{{ path('contact_formulaire') }}" class="navigations_contenant_lien">Contact</a></li>
+        </ul>
+    </div>
+</nav>

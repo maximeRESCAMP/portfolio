@@ -1,0 +1,44 @@
+@media screen and (max-width: 1280px) {
+
+    header {
+        min-width: auto;
+
+    }
+
+    .header-text__description {
+        display: none;
+    }
+
+    aside {
+        display: none;
+    }
+
+    .Epxerience-professionnel {
+        min-width: auto;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    section {
+        margin: 1rem;
+    }
+
+    .informatique, .Centre-interet {
+        margin: 3rem 0;
+    }
+
+
+}
+
+@media screen and (max-width: 500px) {
+    .image-demoi {
+        display: none;
+    }
+}

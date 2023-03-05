@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <header>
+        <h1>Portfolio</h1>
+        <p>Présentation de mes principales expériences.</p>
+        <ul class="projets">
+            <li><a href="#" class="projets__choix" id="projet__web">Web</a></li>
+            <li><a href="#" class="projets__choix " id="projet__java">Java</a></li>
+            <li><a href="#" class="projets__choix" id="projet__all">Tous mes projets</a></li>
+        </ul>
+    </header>
+    <section class="Projet">
+        <article>
+            <a href="{{ path('project_cv')}}" class="projet-cv-liens web" target="_blank">
+                <img src="{{ asset('image/cv.png') }}" alt="projetcv" class="projet-cv"></a>
+
+        </article>
+    </section>
+       <script src="{{ asset('porfolio.js') }}"></script>
+
+{% endblock %}
+
+{% block title %}
+    <title>Portfolio</title>
+
+{% endblock %}
+{% block liencss %}
+    <link rel=" stylesheet" href="{{ asset('css/porfolio.css') }}">
+{% endblock %}

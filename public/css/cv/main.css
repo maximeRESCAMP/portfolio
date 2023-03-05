@@ -1,0 +1,129 @@
+
+/*aside*/
+
+aside {
+    background-color: #d3d3d3;
+    min-width: 240px;
+    padding: 0.7rem 0.3rem 0 1rem;
+    color: #00008b;
+}
+
+.date-logo-formation__logo-diplome,
+.date-logo-experience__logo-experience
+
+{
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* formation*/
+
+.diplome-formation__ecole{
+
+    font-size: 1.5rem;
+    color: #00008b;
+}
+.date-logo-formation__date {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-bottom: 2.7rem;
+    text-align: center;
+}
+
+.date-logo-formation__date__formation{
+    margin-bottom: 3rem;
+}
+.diplome-formation--titre{
+    margin-bottom: 2.75rem;
+}
+.diplome-formation__marge{
+    margin-top: 1.95rem;
+}
+
+/*experience*/
+.Epxerience-professionnel__entrprise{
+    margin-top: 0.5rem;
+    font-size: 1.6rem;
+}
+
+.Epxerience-professionnel__mission{
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+em {
+    color: #4780ed;
+    font-style: normal;
+}
+
+
+.date-logo-experience__logo-experience{
+    margin-bottom: 3rem;
+
+}
+
+
+.date-logo-experience__date {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.date-logo-formation__date__experience{
+    margin-bottom: 7rem;
+}
+
+.date-logo-formation__date__experience__marge{
+    margin-top: 7.8rem;
+    margin-bottom: 9.30rem;
+}
+
+
+
+.Epxerience-professionnel--titre{
+    margin-top: 3.65rem;
+    margin-bottom: 2rem;
+}
+
+.Epxerience-professionnel__margedessus--ciblex{
+    margin-top: 2.70rem;
+}
+
+
+
+
+
+.Epxerience-professionnel{
+    margin-left: 1.2rem;                                    /*avoir*/
+    min-width: 650px;                                       /*avoir*/
+}
+
+
+
+/*Projets*/
+.projet--titre{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.projet-explication{
+    font-size: 2rem;
+}
+
+
+/* article */
+
+h3{
+    color: #00008b;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h4{
+    font-size: 2rem;
+}
+
+
+

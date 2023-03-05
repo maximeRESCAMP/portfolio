@@ -1,0 +1,84 @@
+.formulaire_champ{
+    min-width: 70vw;
+    min-height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+.formulaire{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+strong{
+    display: inline-block;
+    width: 130px;
+    font-weight: normal;
+}
+.bloc_gauche{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 30vh;
+}
+em{
+    font-style: normal;
+}
+.bloc_droite{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.block-centrer{
+    display: block;
+}
+.textarea{
+resize: none;
+}
+.groupe_bouton{
+    margin-top: 1rem;
+}
+button{
+    margin-left: 1rem;
+    width: 10rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    border-radius: 50px;
+}
+button:hover{
+    background-color: skyblue;
+}
+.valider{
+    background-color: green;
+}
+.reinitialiser{
+    background-color: red;
+}
+.img-contact{
+    width: 50px;
+    vertical-align: middle;
+    margin-left: 2rem;
+}
+.contact{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+}
+.contact:hover{
+    font-weight: bold;
+}
+.ligne-contact{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.test{
+    background-color: red;
+}
+textarea{
+    width: 15vw;
+    height: 10vh;
+}
