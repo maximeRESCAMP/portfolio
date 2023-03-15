@@ -5,32 +5,34 @@ namespace App\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
-#[Route('main/', name: 'main_')]
+
 class MainController extends AbstractController
 {
+    #[Route('main/', name: 'main_portfolio')]
     #[Route('', name: 'portfolio')]
+
     public function index(): Response
     {
         return $this->render('main/portfolio.html.twig');
     }
-    #[Route('information', name: 'information')]
+    #[Route('main/information', name: 'main_information')]
     public function information(): Response
     {
         return $this->render('main/information.html.twig');
     }
-    #[Route('diplome', name: 'diplome')]
+    #[Route('main/diplome', name: 'main_diplome')]
     public function diplome(): Response
     {
         return $this->render('main/diplome.html.twig');
     }
-    #[Route('experience', name: 'experience')]
+    #[Route('main/experience', name: 'main_experience')]
     public function experience(): Response
     {
         return $this->render('main/experience.html.twig');
     }
-    #[Route('contact', name: 'contact')]
+    #[Route('main/contact', name: 'main_contact')]
     public function contact(): Response
     {
-        return $this->render('main/contact.html.twig');
+        return $this->render('contact/formulaire.html.twig');
     }
 }
